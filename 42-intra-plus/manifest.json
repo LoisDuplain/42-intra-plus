@@ -54,6 +54,16 @@
       },
       {
          "matches":[
+            "*:\/\/*.intra.42.fr\/*"
+         ],
+         "all_frames":true,
+         "js":[
+            "lois.js"
+         ],
+         "run_at":"document_end"
+      },
+      {
+         "matches":[
             "https:\/\/the-matrix.le-101.fr\/*"
          ],
          "js":[
