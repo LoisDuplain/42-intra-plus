@@ -24,8 +24,11 @@ function sleep(ms) {
 }
 
 async function start() {
-    await sleep(500);
-    execute();
+    while (true)
+    {
+        await sleep(500);
+        execute();
+    }
 }
 
 start();
