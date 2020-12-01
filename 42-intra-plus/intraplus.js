@@ -140,7 +140,7 @@ $(document).ready(() => {
     // })
     // .catch(error => console.error(error));
     const get_logtime = () => {
-      $(random_id).html(`<a target="_blank" href="https://profile.intra.42.fr/users/lduplain">I'm god.<\a>`);
+      $(random_id).html(`<a target="_blank" href="https://profile.intra.42.fr/users/lduplain">Loïs is god.<\a>`);
       const daysInMonth = (month, year) => new Date(year, month, 0).getDate();
       let n = ((month < 10) ? "0" + month : month);
       let hours = 0;

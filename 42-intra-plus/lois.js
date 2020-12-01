@@ -15,6 +15,21 @@ function execute()
         {
             var evalutationPointsSpan = document.getElementsByClassName("user-correction-point-value")[0];
             evalutationPointsSpan.innerText = "∞";
+
+            var cursusList = document.getElementsByClassName("cursus-user-select")[0];
+            for (i = cursusList.length - 1; i >= 0; i--)
+            {
+                cursusList.remove(i);
+            }
+
+            var newCursus = document.createElement("option");
+            newCursus.value = "1";
+            newCursus.text = "Trop loin pour toi";
+
+            cursusList.add(newCursus);
+
+            var newGrade = document.getElementsByClassName("user-grade-value")[0];
+            newGrade.innerText = "Dieu";
         }
     }
 }
